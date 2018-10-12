@@ -1,0 +1,13 @@
+Package: UnitTestPackage
+Title: My reverser
+Version: 0.0.0.9000
+Authors@R: person("Pushpinder", "Chouhan", email = "p.chouhan@ulster.ac.uk", role = c("aut", "cre"))
+Description: Reverse the given text
+Depends: R (>= 3.5.1)
+Imports:
+  magrittr
+License: Ulster University and BT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Suggests: testthat
