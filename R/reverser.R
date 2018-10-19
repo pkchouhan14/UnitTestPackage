@@ -8,9 +8,9 @@
 
 reverser <- function(toReverse){
   split <- autoSplit(toReverse)
-  #paste(rev(split), collapse ="")
-  #above line and below line with pipe are same
-  rev(split) %>% paste(collapse="")
+  paste(rev(split), collapse ="")
+  above line and below line with pipe are same
+  #rev(split) %>% paste(collapse="")
 }
 
 #Helper function to make splitting easier
